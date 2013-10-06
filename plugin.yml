@@ -1,0 +1,10 @@
+name: MazeGenPlugin
+main: com.gmail.dbenny42.MazeGenPlugin.MazeGenPlugin
+version: 1.0
+
+commands:
+   mazegen:
+      description: This is a demo command.
+      usage: /<command> <x-dim> <y-dim> <z-dim> <x-start> <y-start> <z-start> <no-ceiling>
+      permission: MazeGenPlugin.mazegen
+      permission-message: You don't have <permission>

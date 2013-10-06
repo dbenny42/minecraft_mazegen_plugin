@@ -64,9 +64,11 @@ PLANNED ADDITIONS:
 
 - Make the code easier to read / maintain by fixing the y/z logical mixup.
 
+- Add mob spawners randomly in the maze, if the user specifies a bit on
+  the command line.
 
 
-SOURCE NOTES:
+CODE NOTES:
 
 - MazeGenerator.java is *supposed* to be a mostly-abstract base class that
   we can plug sub-classes into for the actual algorithm.
